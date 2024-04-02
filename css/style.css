@@ -1,4 +1,21 @@
 body{
-    background-color: rgb(49, 49, 49);
-    color: #ffffff;
+    background-color: gray;
+}
+header{
+    background-color: bisque;
+}
+.logo{
+    background-color: yellow;
+}
+nav{
+    background-color: lightgray;
+}
+main{
+    background-color: olive;
+}
+section{
+    background-color: lightsteelblue;
+}
+footer{
+    background-color: green;
 }
