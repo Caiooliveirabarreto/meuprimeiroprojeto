@@ -3,6 +3,7 @@ body{
 }
 header{
     background-color: bisque;
+    padding: 3%;
 }
 .logo{
     background-color: yellow;
@@ -12,10 +13,39 @@ nav{
 }
 main{
     background-color: olive;
+    width: 80%;
+    margin: auto;
 }
 section{
     background-color: lightsteelblue;
 }
 footer{
     background-color: green;
+    padding: 3%;
+}
+.titulo{
+    background-color: aqua;
+    font-size: 1.5em;
+}
+.texto{
+    background-color: blue;
+    text-align: center;
+}
+.definicao{
+    text-align: center;
+    background-color: white;
+}
+.subtitulo{
+    font-size: 1.3em;
+}
+h1{
+    line-height: 3;
+    font-weight: bolder;
+}
+h2{
+    line-height: 2;
+    font-weight: bold;
+}
+.subtitulo2{
+    font-size: 1.1em;
 }
