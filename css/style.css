@@ -1,23 +1,25 @@
 body{
-    background-color: gray;
+    background-color: black;
 }
 header{
-    background-color: bisque;
+    background-color: rgb(35, 173, 7);
     padding: 3%;
 }
 .logo{
-    background-color: yellow;
+    background-color: rgb(35, 173, 7);
 }
 nav{
-    background-color: lightgray;
+    background-color: rgb(35, 173, 7);
 }
 main{
-    background-color: olive;
+    background-color: black;
     width: 80%;
     margin: auto;
 }
 section{
-    background-color: lightsteelblue;
+    background-color: rgb(2, 2, 22);
+    text-align: center;
+    color: white;
 }
 footer{
     background-color: green;
@@ -28,12 +30,14 @@ footer{
     font-size: 1.5em;
 }
 .texto{
-    background-color: blue;
+    background-color: rgb(2, 2, 22);
     text-align: center;
+    color: white;
 }
 .definicao{
+    background-color: rgb(2, 2, 22);
     text-align: center;
-    background-color: white;
+    color: white;
 }
 .subtitulo{
     font-size: 1.3em;
