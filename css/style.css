@@ -2,37 +2,35 @@ body{
     background-color: black;
 }
 header{
-    background-color: rgb(35, 173, 7);
+    background-color: black;
     padding: 3%;
 }
 .logo{
-    background-color: rgb(35, 173, 7);
+    color: green;
 }
 nav{
-    background-color: rgb(35, 173, 7);
+    color: green;
 }
 main{
-    background-color: black;
     width: 80%;
     margin: auto;
 }
 section{
-    background-color: rgb(2, 2, 22);
     text-align: center;
-    color: white;
+    color: green;
 }
 footer{
-    background-color: green;
     padding: 3%;
+    color: green;
 }
 .titulo{
-    background-color: aqua;
-    font-size: 1.5em;
+    font-size: 2.0em;
+    color: greenyellow;
 }
 .texto{
     background-color: rgb(2, 2, 22);
     text-align: center;
-    color: white;
+    color: green;
 }
 .definicao{
     background-color: rgb(2, 2, 22);
@@ -41,6 +39,7 @@ footer{
 }
 .subtitulo{
     font-size: 1.3em;
+    color: greenyellow;
 }
 h1{
     line-height: 3;
@@ -51,5 +50,5 @@ h2{
     font-weight: bold;
 }
 .subtitulo2{
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
