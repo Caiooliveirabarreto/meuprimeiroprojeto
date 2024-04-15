@@ -52,3 +52,10 @@ h2{
 .subtitulo2{
     font-size: 1.3em;
 }
+td{
+    text-align: center;
+}
+th{
+    text-align: center;
+    margin: 5%;
+}
