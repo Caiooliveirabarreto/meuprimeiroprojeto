@@ -1,5 +1,9 @@
 body{
     background-color: black;
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 header{
     background-color: black;
@@ -54,8 +58,16 @@ h2{
 }
 td{
     text-align: center;
+    line-height: 1;
+    padding: 0.5rem;
 }
-th{
-    text-align: center;
-    margin: 5%;
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.codigo_helloworld{
+    width: 50%;
+}
+.codigocpp{
+    width: 50%;
 }
