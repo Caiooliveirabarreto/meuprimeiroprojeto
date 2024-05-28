@@ -2,7 +2,7 @@ body{
     background-color: black;
     font-family: "M PLUS 1 Code", monospace;
     font-optical-sizing: auto;
-    font-weight: weight;
+    /*font-weight: weight;*/
     margin-right: auto;
     margin-left: auto;
     font-style: normal;
@@ -120,3 +120,12 @@ a{
     width: 27%;   
     overflow: auto;
 }
+* {
+    box-sizing: border-box;
+  }
+@media only screen and (max-width: 600px){
+    body, header{
+        background-color: rgba(5, 129, 5, 0.452);
+    }
+}
+/* criar temas de cores diferentes como sépia, entre outros nos links do começo*/
