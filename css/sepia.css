@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(219, 169, 94);
     font-family: "M PLUS 1 Code", monospace;
     font-optical-sizing: auto;
     /*font-weight: weight;*/
@@ -8,15 +8,14 @@ body{
     font-style: normal;
 }
 header{
-    background-color: black;
     padding: 3%;
 }
 .logo{
-    color: green;
+    color: #2D6580;
     width: 50%;
 }
 nav{
-    color: green;
+    color: #2D6580;
 }
 main{
     width: 80%;
@@ -25,31 +24,27 @@ main{
 }
 section{
     text-align: center;
-    color: green;
-    background-color: black;
+    color: #2D6580;
 }
 footer{
     padding: 3%;
-    color: green;
+    color: #2D6580;
 }
 .titulo{
     font-size: 2.0em;
-    color: greenyellow;
-    background-color: black;
+    color:  #053D58;
 }
 .texto{
-    background-color:black;
     text-align: center;
-    color: green;
+    color: #2D6580;
 }
 .definicao{
-    background-color: rgb(2, 2, 22);
     text-align: center;
     color: white;
 }
 .subtitulo{
     font-size: 1.3em;
-    color: greenyellow;
+    color:  #053D58;
 }
 h1{
     line-height: 3;
@@ -68,12 +63,12 @@ td{
     padding: 0.5rem;
     margin-right: auto;
     margin-left: auto;
-    border: 1px solid green;
+    border: 1px solid #2D6580;
 }
 table{
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid greenyellow;
+    border: 3px solid  #053D58;
     width: 50%;
 }
 
@@ -102,13 +97,13 @@ table{
     padding: 20px;
 }
 a:link{
-    color: green;
+    color: #2D6580;
 }
 a:visited{
-    color: greenyellow;
+    color:  #053D58;
 }
 a:hover{
-    color: greenyellow;
+    color:  #053D58;
     font-size: 130%;
 }
 a{
