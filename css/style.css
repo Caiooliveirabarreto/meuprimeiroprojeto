@@ -141,3 +141,30 @@ a{
     }
 }
 /* criar temas de cores diferentes como sépia, entre outros nos links do começo*/
+
+.xadrez{
+    position: relative;
+}
+.diagonaltopo{
+    position: absolute;
+    top: 8px;
+    left: 420px;
+    color: #ffff;
+    width: 15%;
+}
+.meio{
+    position: absolute;
+    top: 280px;
+    left: 500px;
+    right: 200px;
+    bottom:180px;
+    color: #ff7a0e;
+    width: 20%;
+}
+.diagonalbaixo{
+    position: absolute;
+    right: 420px;
+    top: 8px;
+    color: #211eff;
+    width: 15%;
+}
