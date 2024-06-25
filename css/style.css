@@ -119,8 +119,8 @@ a{
 }
 .direita{
     float: right;
-    width: 27%;   
-    overflow: auto;
+    width: 27%;
+    border-bottom: 2%;   
 }
 * {
     box-sizing: border-box;
@@ -158,13 +158,13 @@ a{
     left: 500px;
     right: 200px;
     bottom:180px;
-    color: #ff7a0e;
+    color: #ffffff;
     width: 20%;
 }
 .diagonalbaixo{
     position: absolute;
     right: 420px;
     top: 8px;
-    color: #211eff;
+    color: #ffffff;
     width: 15%;
 }
