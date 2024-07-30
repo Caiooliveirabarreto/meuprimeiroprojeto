@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 40%;
+}
 body{
     background-color: black;
     font-family: "M PLUS 1 Code", monospace;
@@ -8,7 +12,15 @@ body{
     font-style: normal;
 }
 header{
-    background-color: black;
+    width: 100%;
+    background-color: rgba(44, 44, 44, 0.800);
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: wrap row;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    z-index: 10000;
 }
 .logo{
     color: green;
@@ -201,14 +213,6 @@ a{
     .meio{
         font-size: 40%;
     }
-}
-header{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: wrap row;
-    align-items: center;
-    padding-bottom: 5%;
 }
 .menu{
     width: 50%;

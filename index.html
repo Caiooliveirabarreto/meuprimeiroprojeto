@@ -18,23 +18,17 @@
         </div>
         <nav class="menu">
             <ul>
-                <li class="link">
-                    <a href="#">link1</a>
-                </li> 
-                <li class="link">
-                     <a href="#">link2</a>
-                </li>
-                <li class="link">
-                   <a href="#">link3</a>
-                </li>
-                <li class="link">
-                   <a href="#">link4</a>
-                </li>
-             </ul>
-        </nav> 
+                <ul>
+                    <li class="link"><a href="#sobre" onclick="document.getElementById('menu-toggle').click()">Definição</a></li>
+                    <li class="link"><a href="#galeria" onclick="document.getElementById('menu-toggle').click()">Galeria</a></li>
+                    <li class="link"><a href="#usos" onclick="document.getElementById('menu-toggle').click()">Usos Famosos</a></li>
+                    <li class="link"><a href="contato.html" onclick="document.getElementById('menu-toggle').click()">Contato</a></li>
+                </ul>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section class="texto">
+        <section class="texto" id="sobre">
            <h1 class="titulo">O QUE É C++ E PARA QUE SERVE? </h1>
            <p> C++ é uma das linguagens de programação mais populares e amplamente usadas em diversos domínios, como desenvolvimento de software, jogos, sistemas embarcados, inteligência artificial, entre outros. Ela é conhecida por sua eficiência e desempenho, bem como por fornecer um alto nível de controle sobre o hardware do sistema. 
             A linguagem C++ permite aos desenvolvedores escrever programas complexos, lidar com alocação de memória, gerenciar recursos de forma explícita e criar programas de alto desempenho. Ela oferece recursos avançados, como herança, polimorfismo, sobrecarga de operadores e manipulação direta de memória. 
@@ -97,7 +91,7 @@
             </tr>
             </table>
         </section>
-        <section>
+        <section id="galeria">
             <h1 class="titulo">Galeria de imagens</h1>
             <div class="linha">
                 <div class="col-3">
@@ -128,7 +122,7 @@
             <p>Inicialmente, a linguagem era chamada ``C com classes'', mas o nome foi alterado para C ++ em 1983. A motivação para o desenvolvimento de C ++ foi complexidade. Grandes sistemas implementados com a linguagem C, na ordem de 25000 a 100000 linhas de código, são difíceis de controlar ou mesmo entender sua totalidade. C ++ surgiu para permitir que esta barreira seja quebrada. O objetivo de C ++ é permitir que programadores possam gerenciar e compreeender programas maiores e mais complexos.</p>
             <p>Fonte utilizada: <a href="https://www.dca.fee.unicamp.br/cursos/POOCPP/node18.html" target="_blank">Unicamp</a></p>
         </section>
-        <section class="texto">
+        <section class="texto" id="usos">
             <h1 class="titulo">Usos Famosos do c++</h1>
             <h2 class="subtitulo">Sistemas operacionais</h2>
             <ul>
