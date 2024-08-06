@@ -20,12 +20,30 @@
             <ul>
                 <ul>
                     <li class="link"><a href="index.html" onclick="document.getElementById('menu-toggle').click()">Definição</a></li>
-                    <li class="link"><a href="#contato" onclick="document.getElementById('menu-toggle').click()">Contato</a></li>
                 </ul>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="texto" id="Contato"></section>
+        <section class="texto">
+            <form action="">
+                <p class="subtitulo">Você gostou do site?</p>
+                <input type="radio" id="sim" name="opiniao" value="Sim">
+                <label for="sim" class="formulario">Sim</label>
+                <input type="radio" id="nao" name="opiniao" value="Não">
+                <label for="nao" class="formulario">Não</label>
+                <input type="submit" value="Submit">
+            </form>
+        </section>    
+        <section>        
+            <form action="">
+                <p class="subtitulo">O que pode melhorar?</p>
+                <textarea name="oq melhorar" id="melhora" cols="20" rows="5"></textarea>
+                <p class="subtitulo">O que prescisa mudar?</p>
+                <textarea name="oq mudar" id="mudar" cols="20" rows="5"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
 </body>
 </html>

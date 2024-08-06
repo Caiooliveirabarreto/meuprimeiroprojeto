@@ -234,3 +234,23 @@ a{
         margin-right: auto;
     }
 }
+textarea{
+    width: 75%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 5px solid green;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 17px;
+}
+input[type=submit]{
+    width: 33%;
+    padding: 1%;
+    border: 5px solid green;
+    font-size: 20px;
+}
+.formulario{
+    font-size: 1.4em;
+    display: flex;
+    flex-flow: column;
+}
